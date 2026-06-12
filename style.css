@@ -329,6 +329,42 @@ section {
     color: var(--text-muted);
 }
 
+/* CV Section */
+.cv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.cv-image-wrapper {
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid var(--dark-border);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--card-bg);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.cv-image-wrapper:hover {
+    border-color: var(--neon-green);
+    box-shadow: 0 5px 20px var(--neon-green-glow);
+    transform: translateY(-5px);
+}
+
+.cv-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cv-actions {
+    display: flex;
+    justify-content: center;
+}
+
 /* Contact Section */
 .contact-container {
     display: grid;

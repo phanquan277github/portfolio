@@ -1,0 +1,201 @@
+{
+  "basics": {
+    "name": "Phan Minh Quan",
+    "title": "Network Security & DevSecOps Enthusiast",
+    "phone": "0979649435",
+    "email": "quanphan2772004@gmail.com",
+    "location": {
+      "city": "Da Nang",
+      "country": "Vietnam"
+    },
+    "portfolio": "https://phanquan277.id.vn",
+    "github": "https://github.com/phanquan277github"
+  },
+  "education": [
+    {
+      "institution": "Vietnam-Korea University of Information and Communication Technology (VKU)",
+      "organization": "The University of Danang",
+      "degree": "Bachelor of Science",
+      "major": "Network and Information Security",
+      "gpa": 3.36,
+      "gpa_scale": 4.0,
+      "start_date": "2022-09",
+      "end_date": "Present",
+      "achievements": [
+        "Academic Encouragement Scholarship"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Cloud-Native DevSecOps & Automated Incident Response",
+      "year": 2026,
+      "category": [
+        "Cloud",
+        "DevSecOps",
+        "SIEM",
+        "SOAR"
+      ],
+      "description": "Designed and deployed a cloud-native application infrastructure with automated security monitoring and incident response.",
+      "technologies": [
+        "AWS EC2",
+        "AWS RDS",
+        "AWS ALB",
+        "AWS S3",
+        "Docker",
+        "Jenkins",
+        "SonarQube",
+        "Trivy",
+        "OWASP ZAP",
+        "Wazuh",
+        "EventBridge",
+        "AWS Lambda"
+      ],
+      "highlights": [
+        "Built Docker-based CI/CD pipeline with Jenkins.",
+        "Integrated automated vulnerability scanning into deployment workflow.",
+        "Implemented serverless SOAR platform using Wazuh, EventBridge and Lambda.",
+        "Automated network-level threat detection and response."
+      ]
+    },
+    {
+      "name": "Centralized Network Monitoring Infrastructure",
+      "year": 2025,
+      "category": [
+        "Monitoring",
+        "Infrastructure",
+        "Linux"
+      ],
+      "description": "Implemented centralized monitoring and alerting platform for network and system infrastructure.",
+      "technologies": [
+        "Nagios Core",
+        "Icinga 2",
+        "MySQL",
+        "Grafana",
+        "Linux",
+        "Telegram API"
+      ],
+      "highlights": [
+        "Monitored system health and network performance.",
+        "Developed Grafana dashboards for real-time visualization.",
+        "Configured Telegram and Email alerting.",
+        "Reduced Mean Time To Respond (MTTR)."
+      ]
+    },
+    {
+      "name": "Hierarchical Network Design & Load Balancing Deployment",
+      "period": "2024-2025",
+      "category": [
+        "Networking",
+        "Infrastructure",
+        "High Availability"
+      ],
+      "description": "Designed and deployed enterprise-scale network architecture supporting 3,600 users.",
+      "technologies": [
+        "pfSense",
+        "HAProxy",
+        "OSPF",
+        "VLAN",
+        "HSRP",
+        "ECMP",
+        "MySQL Replication"
+      ],
+      "highlights": [
+        "Designed secure 3-tier network topology.",
+        "Implemented OSPF routing and VLAN segmentation.",
+        "Configured Multi-WAN load balancing using ECMP.",
+        "Implemented HAProxy reverse proxy services.",
+        "Configured MySQL Master-Slave replication."
+      ]
+    }
+  ],
+  "extracurricular": [
+    {
+      "name": "Capture The Flag (CTF)",
+      "role": "Competitor",
+      "description": "Participated in university-level cybersecurity competitions.",
+      "focus_areas": [
+        "Web Security",
+        "Network Analysis",
+        "Vulnerability Assessment",
+        "Incident Investigation"
+      ]
+    }
+  ],
+  "skills": {
+    "cloud_devops": [
+      "AWS EC2",
+      "AWS S3",
+      "AWS RDS",
+      "AWS ALB",
+      "AWS CloudFront",
+      "AWS Lambda",
+      "AWS EventBridge",
+      "AWS VPC",
+      "AWS IAM",
+      "Docker",
+      "Jenkins"
+    ],
+    "security_devsecops": [
+      "Wazuh",
+      "SIEM",
+      "SOAR",
+      "SonarQube",
+      "Trivy",
+      "OWASP ZAP",
+      "ModSecurity WAF",
+      "Cisco ASA Firewall",
+      "Access Control Lists (ACL)",
+      "IDA Free",
+      "Ghidra",
+      "Volatility"
+    ],
+    "networking": [
+      "pfSense",
+      "HAProxy",
+      "Multi-WAN ECMP",
+      "MikroTik RouterOS",
+      "MikroTik SwOS",
+      "Ubiquiti UniFi",
+      "OSPF",
+      "RIP",
+      "VLAN",
+      "STP",
+      "VTP",
+      "HSRP",
+      "NAT",
+      "QoS"
+    ],
+    "monitoring_databases": [
+      "Nagios Core",
+      "Icinga 2",
+      "Grafana",
+      "MySQL",
+      "MariaDB",
+      "Master-Slave Replication"
+    ],
+    "programming": [
+      "Python",
+      "boto3",
+      "Bash",
+      "C",
+      "C++",
+      "SQL"
+    ],
+    "tools": [
+      "Cisco Packet Tracer"
+    ]
+  },
+  "languages": [
+    {
+      "language": "English",
+      "level": "Actively practicing conversational and technical speaking skills"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Academic Encouragement Scholarship"
+    }
+  ],
+  "summary": "Network Security student with hands-on experience in DevSecOps, Cloud Infrastructure, Monitoring Systems, SIEM/SOAR automation, and Enterprise Networking. Passionate about cybersecurity operations, incident response automation, and secure cloud-native architecture."
+}

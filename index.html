@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Cybersecurity Specialist</title>
+    <meta name="description"
+        content="Portfolio of a Cybersecurity Specialist, Penetration Tester, and Reverse Engineer.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix-bg"></canvas>
+
+    <!-- Overlay to ensure text readability -->
+    <div class="overlay"></div>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <p class="sys-msg">> SYSTEM.INITIALIZED</p>
+                <h1 class="glitch" id="hero-name" data-text="[Loading...]">[Loading...]</h1>
+
+                <h2 class="subtitle typing-effect" id="hero-role"></h2>
+
+                <p class="description" id="hero-intro"></p>
+
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fa-solid fa-terminal"></i> Xem Dự án
+                    </a>
+                    <a href="#" class="btn btn-outline">
+                        <i class="fa-solid fa-download"></i> Tải CV
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <h2 class="section-title"><span class="highlight">01.</span> Kỹ năng chuyên môn</h2>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skills Rendered by JSON -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <h2 class="section-title"><span class="highlight">02.</span> Dự án Nổi bật</h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects Rendered by JSON -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2 class="section-title"><span class="highlight">03.</span> Khởi tạo kết nối</h2>
+
+            <div class="contact-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">> root@name:~#</label>
+                        <input type="text" id="name" name="name" placeholder="Nhập tên của bạn_" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">> root@email:~#</label>
+                        <input type="email" id="email" name="email" placeholder="Nhập email của bạn_" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">> root@message:~#</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Nhập tin nhắn..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <i class="fa-solid fa-paper-plane"></i> Gửi Gói Tin (Send Packet)
+                    </button>
+                </form>
+
+                <div class="social-links">
+                    <p>Hoặc liên hệ qua hệ thống khác:</p>
+                    <div class="social-icons">
+                        <a href="#" id="contact-github" target="_blank" aria-label="GitHub"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="#" id="contact-linkedin" target="_blank" aria-label="LinkedIn"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" id="contact-email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="#" id="contact-phone" aria-label="Phone" style="display: none;"><i
+                                class="fa-solid fa-phone"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Designed & Built by Phan Minh Quân - <span class="highlight">2026</span></p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

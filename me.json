@@ -1,0 +1,193 @@
+{
+  "hero": {
+    "name": "Phan Minh Quân",
+    "role": "Final-year Student | Aspiring Cloud Security & Software Engineer",
+    "tagline": "Building automated security systems on AWS & robust applications",
+    "introduction": "I am a final-year student specializing in Network and Information Security at VKU. I have strong hands-on experience in Cloud Security, SIEM/SOAR systems, as well as full-stack mobile application development.",
+    "cta": [
+      "View Projects",
+      "Contact Me"
+    ]
+  },
+  "about": {
+    "description": "I am a final-year student at VKU focusing on Cloud Security, SIEM, and SOAR systems. I prefer hands-on learning by building real-world systems, ranging from Wazuh-based SIEM and AWS-integrated security pipelines to full-fledged mobile e-commerce applications. My goal is to leverage my software development background to become a highly effective Cloud Security Engineer in a professional environment."
+  },
+  "skills": {
+    "networking": [
+      "TCP/IP",
+      "DNS",
+      "HTTP/HTTPS",
+      "Load Balancing",
+      "Multi-WAN",
+      "Routing (ECMP)"
+    ],
+    "security": [
+      "Wazuh SIEM",
+      "Threat Detection",
+      "Incident Response",
+      "Network Security Monitoring"
+    ],
+    "cloud": [
+      "AWS EC2",
+      "VPC",
+      "IAM",
+      "CloudTrail",
+      "GuardDuty"
+    ],
+    "development_&_tools": [
+      "Kotlin",
+      "Android Studio",
+      "Laravel",
+      "MySQL",
+      "Linux",
+      "Docker",
+      "Git",
+      "Wireshark",
+      "pfSense",
+      "HAProxy",
+      "VMware",
+      "GNS3"
+    ]
+  },
+  "projects": [
+    {
+      "name": "Load Balancing System using pfSense + HAProxy",
+      "problem": "Ensure high availability, scalability, and performance for a web system under increasing network traffic and potential ISP failures.",
+      "description": "Designed and implemented a full network load balancing system combining Multi-WAN (pfSense) and application-layer load balancing (HAProxy). The system distributes traffic across multiple ISPs using ECMP and balances HTTP requests across multiple web servers with health checks and sticky sessions. Database availability is ensured through MySQL Master-Slave replication.",
+      "technologies": [
+        "pfSense",
+        "HAProxy",
+        "Apache2",
+        "MySQL",
+        "VMware",
+        "GNS3"
+      ],
+      "details": [
+        "Configured Multi-WAN Load Balancing using Gateway Groups and ECMP",
+        "Implemented Failover mechanism to ensure continuous connectivity",
+        "Deployed HAProxy as reverse proxy (Layer 7 Load Balancing)",
+        "Applied Round Robin and Health Check for backend servers",
+        "Implemented Sticky Session for user session persistence",
+        "Designed Master-Slave Replication for database redundancy",
+        "Segmented network using LAN, DMZ, and WAN architecture"
+      ],
+      "result": "Achieved improved system availability, automatic failover between ISPs, balanced traffic across web servers, and ensured database reliability under simulated real-world conditions.",
+      "github": "https://github.com/your-repo"
+    },
+    {
+      "name": "SOAR System using Wazuh + AWS",
+      "problem": "Detect and mitigate brute force SSH attacks",
+      "description": "Built a SIEM system using Wazuh and integrated AWS Lambda for automated response to security events",
+      "technologies": [
+        "Wazuh",
+        "AWS EC2",
+        "Lambda",
+        "Security Group"
+      ],
+      "result": "Automatically blocks attacker IP within seconds",
+      "github": "https://github.com/your-repo"
+    },
+    {
+      "name": "Shoe Sales Android Application",
+      "problem": "Create a convenient and interactive online shopping experience for footwear.",
+      "description": "Developed a comprehensive mobile e-commerce application featuring user authentication, product filtering, cart management, and order processing. Built the backend API to serve dynamic product data and manage user sessions.",
+      "technologies": [
+        "Kotlin",
+        "Android Studio",
+        "Laravel",
+        "MySQL"
+      ],
+      "result": "Successfully delivered a functional mobile application with a responsive UI, smooth data processing, and reliable backend database integration.",
+      "github": "https://github.com/your-repo"
+    },
+    {
+      "name": "Network Monitoring System using Icinga + Grafana",
+      "problem": "Lack of real-time visibility and alerting in network infrastructure leads to delayed incident detection and system downtime.",
+      "description": "Designed and deployed a comprehensive network monitoring system using Icinga 2 for infrastructure monitoring, MySQL for data storage, and Grafana for visualization. The system monitors network devices (router, switch, firewall, servers), tracks performance metrics (CPU, memory, bandwidth), and sends real-time alerts via email.",
+      "technologies": [
+        "Icinga 2",
+        "MySQL",
+        "Grafana",
+        "Linux (Ubuntu)",
+        "SNMP",
+        "Network Devices (Router, Switch, Firewall)"
+      ],
+      "details": [
+        "Designed monitoring architecture with Icinga Core, database, and visualization layer",
+        "Configured host and service monitoring (CPU, RAM, network bandwidth, interface status)",
+        "Integrated MySQL for storing monitoring data",
+        "Built dashboards in Grafana for real-time visualization",
+        "Configured alerting system with email notifications",
+        "Used plugins and custom commands to monitor network devices",
+        "Simulated real network environment with multiple devices"
+      ],
+      "result": "Enabled real-time monitoring and alerting, improved system visibility, reduced response time to incidents, and provided centralized dashboard for network performance analysis.",
+      "github": "https://github.com/your-repo"
+    },
+    {
+      "name": "Metasploit SQLi Scanner Module Development",
+      "problem": "Need a reusable way to detect SQL Injection vulnerabilities in web applications during penetration testing and lab-based security validation.",
+      "description": "Researched the Metasploit module architecture and developed a custom SQLi auxiliary scanner module. The project included building a controlled Docker-based testing environment with bWAPP, analyzing SQL Injection techniques, and validating the scanner through multiple lab scenarios.",
+      "technologies": [
+        "Metasploit Framework",
+        "Ruby",
+        "SQL Injection",
+        "Docker",
+        "bWAPP",
+        "MySQL"
+      ],
+      "details": [
+        "Analyzed the internal structure and workflow of Metasploit modules",
+        "Built a custom auxiliary scanner module for SQLi detection",
+        "Set up a repeatable lab environment using Docker and bWAPP",
+        "Evaluated SQLi cases such as boolean-based, union-based, OOB, and file-write scenarios in a controlled environment",
+        "Compared the approach with sqlmap to assess automation and effectiveness"
+      ],
+      "result": "Produced a reusable SQLi scanning module and a reproducible test environment for security research and penetration-testing practice.",
+      "github": "https://github.com/your-repo"
+    }
+  ],
+  "experience": {
+    "built": [
+      "Cloud-based SIEM system with Wazuh",
+      "Secure web deployment on AWS",
+      "Full-stack Android E-commerce Application",
+      "Network Load Balancing System (Multi-WAN + HAProxy)",
+      "High Availability Web Architecture with Failover & Replication"
+    ],
+    "learning": [
+      "Cloud Security",
+      "SIEM & SOAR",
+      "Network Security",
+      "Load Balancing Architectures",
+      "High Availability Systems"
+    ],
+    "hands_on": [
+      "AWS labs",
+      "Security monitoring systems",
+      "RESTful API Development (Laravel)",
+      "Mobile UI/UX Implementation",
+      "pfSense configuration",
+      "HAProxy deployment",
+      "Network simulation (GNS3, VMware)"
+    ],
+    "summary": "Hands-on experience building and testing real-world security systems on AWS and designing high-availability network architectures with load balancing and failover mechanisms."
+  },
+  "blog": [
+    {
+      "title": "How I built a SOAR system with Wazuh",
+      "link": "#"
+    },
+    {
+      "title": "Designing a Load Balancing System with pfSense & HAProxy",
+      "link": "#"
+    }
+  ],
+  "contact": {
+    "email": "your@email.com",
+    "github": "https://github.com/your-github",
+    "linkedin": "https://linkedin.com/in/your-profile",
+    "phone": "",
+    "contact_form": true
+  }
+}
